@@ -106,21 +106,21 @@ const Home: NextPage = () => {
             <div className={styles.contacts}>
                 <div className={styles.column}>
                     <div className={styles.contact}>
-                        <a href="#" target="_blank" title="Github"><FontAwesomeIcon icon={faGithub} /> TTATPuOT</a>
+                        <a href="https://github.com/TTATPuOT" target="_blank" title="Github"><FontAwesomeIcon icon={faGithub} /> TTATPuOT</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="#" target="_blank" title="Linkedin"><FontAwesomeIcon icon={faLinkedin} /> neverov12</a>
+                        <a href="https://linkedin.com/in/neverov12" target="_blank" title="Linkedin"><FontAwesomeIcon icon={faLinkedin} /> neverov12</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="#" target="_blank" title="Хабр Q&A"><FontAwesomeIcon icon={faQuestionCircle} /> TTATPuOT</a>
+                        <a href="https://qna.habr.com/user/TTATPuOT" target="_blank" title="Хабр Q&A"><FontAwesomeIcon icon={faQuestionCircle} /> TTATPuOT</a>
                     </div>
                 </div>
                 <div className={styles.column}>
                     <div className={styles.contact}>
-                        <a href="#" target="_blank" title="Telegram"><FontAwesomeIcon icon={faTelegram} /> @neverov12</a>
+                        <a href="https://t.me/neverov12" target="_blank" title="Telegram"><FontAwesomeIcon icon={faTelegram} /> @neverov12</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="#" target="_blank" title="Email"><FontAwesomeIcon icon={faEnvelope} /> neverov12@gmail.com</a>
+                        <a href="mailto:neverov12@gmail.com" target="_blank" title="Email"><FontAwesomeIcon icon={faEnvelope} /> neverov12@gmail.com</a>
                     </div>
                 </div>
             </div>

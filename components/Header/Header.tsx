@@ -11,7 +11,7 @@ const Header = (props: HeaderProps) => {
             <li><Link href="/">Обо мне</Link></li>
             <li><Link href="/projects">Проекты</Link></li>
             <li><Link href="/articles">Статьи</Link></li>
-            <li><a href="#">Исходники <i className="icon-link" /></a></li>
+            <li><a href="https://github.com/TTATPuOT/patriotovsky.ru" target="_blank">Исходники <i className="icon-link" /></a></li>
         </ul>
     </div>
 }
