@@ -5,6 +5,9 @@ import antohaImg from '@public/antoha.jpg';
 import { MainLayout } from '@components/Layout';
 import Block, {Button, Header as BlockHeader, Link, Text} from "@components/Block";
 import Small from "@components/Block/Small";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faGithub, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope, faQuestionCircle} from "@fortawesome/free-solid-svg-icons";
 
 const Home: NextPage = () => {
     return <MainLayout>
@@ -15,7 +18,7 @@ const Home: NextPage = () => {
                     <h2>JavaScript и PHP разработчик</h2>
                 </div>
                 <div className={styles.avatar}>
-                    <Image src={antohaImg} layout="responsive" quality={95} />
+                    <Image src={antohaImg} quality={95} />
                 </div>
             </div>
         </div>
@@ -95,6 +98,32 @@ const Home: NextPage = () => {
                 <br />
                 В свободное время помогаю другим в освоении языков на Хабр Q&A
             </Text>
+        </Block>
+
+        <Block>
+            <BlockHeader>Контакты</BlockHeader>
+
+            <div className={styles.contacts}>
+                <div className={styles.column}>
+                    <div className={styles.contact}>
+                        <a href="#" target="_blank" title="Github"><FontAwesomeIcon icon={faGithub} /> TTATPuOT</a>
+                    </div>
+                    <div className={styles.contact}>
+                        <a href="#" target="_blank" title="Linkedin"><FontAwesomeIcon icon={faLinkedin} /> neverov12</a>
+                    </div>
+                    <div className={styles.contact}>
+                        <a href="#" target="_blank" title="Хабр Q&A"><FontAwesomeIcon icon={faQuestionCircle} /> TTATPuOT</a>
+                    </div>
+                </div>
+                <div className={styles.column}>
+                    <div className={styles.contact}>
+                        <a href="#" target="_blank" title="Telegram"><FontAwesomeIcon icon={faTelegram} /> @neverov12</a>
+                    </div>
+                    <div className={styles.contact}>
+                        <a href="#" target="_blank" title="Email"><FontAwesomeIcon icon={faEnvelope} /> neverov12@gmail.com</a>
+                    </div>
+                </div>
+            </div>
         </Block>
     </MainLayout>
 }

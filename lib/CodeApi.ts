@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 export interface WpPost {
     id: number
     slug: string
