@@ -4,6 +4,7 @@ import '@styles/globals.sass';
 import {AnimatePresence} from "framer-motion";
 import type { AppProps } from 'next/app';
 import Router from "next/router";
+import {useEffect} from "react";
 
 const routeChange = () => {
     // Temporary fix to avoid flash of unstyled content
@@ -24,6 +25,10 @@ Router.events.on("routeChangeComplete", routeChange );
 Router.events.on("routeChangeStart", routeChange );
 
 function MyApp({ Component, pageProps, router }: AppProps) {
+    useEffect(() => {
+        router.push(router.pathname);
+    }, []);
+
     return <AnimatePresence exitBeforeEnter initial={true}>
         <Component {...pageProps} key={router.route} />
     </AnimatePresence>
