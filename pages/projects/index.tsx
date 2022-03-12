@@ -41,6 +41,18 @@ const Index: NextPage = () => {
             <Header>Разработки «Для себя»</Header>
 
             <div className={styles.item}>
+                <Text><Link href="https://pass.patriotovsky.ru/" target="_blank">Генератор паролей</Link></Text>
+                <div className={styles.small}>
+                    <Small>
+                        Простенькое PWA на Next.js.
+                        Генерирует пароли на стороне клиента, не делиться и не хранит их. Очень удобно и быстро, мало кнопок.
+                        <Link href="https://github.com/TTATPuOT/pass.patriotovsky.ru" target="_blank">Исходный код</Link> есть
+                        у меня на Github
+                    </Small>
+                </div>
+            </div>
+
+            <div className={styles.item}>
                 <Text><Link href="https://patriotovsky.ru/compare/" target="_blank">Сравнение цен</Link></Text>
                 <div className={styles.small}>
                     <Small>
