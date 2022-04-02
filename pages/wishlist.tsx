@@ -1,0 +1,166 @@
+import type { NextPage } from 'next'
+import { MainLayout } from '@components/Layout';
+import WishlistItem from '@components/WishlistItem';
+import { WishlistItemData } from '@lib/types';
+import { useMemo } from 'react';
+import WishlistScrollspy from '@components/WishlistScrollspy';
+
+const items: WishlistItemData[] = [
+    {
+        name: 'Деньги',
+        price: 1,
+        image: '/wishlist/money.jpg',
+        text: 'Если лениво покупать что-либо из списка, всегда можно просто подарить деньги'
+    },
+    {
+        name: 'Туалетная бумага Zewa Just 1',
+        price: 320,
+        image: '/wishlist/zewa.jpg',
+        text: 'Санкционный продукт, которого очень не хватает',
+        links: [
+            { name: 'Ozon (8 рулонов)', url: 'https://www.ozon.ru/product/tualetnaya-bumaga-zewa-just-1-4-sloya-8-rulonov-147774447/' },
+            { name: 'Ozon (4 рулона)', url: 'https://www.ozon.ru/product/tualetnaya-bumaga-zewa-just-1-4-sloya-4-rulona-137989195/' },
+        ]
+    },
+    {
+        name: 'Твердый шампунь «Это я»',
+        price: 560,
+        image: '/wishlist/soap2.jpg',
+        text: 'Вкусно пахнет и хорошо моет. Хватает только совсем не надолго. Нравится с лавандой, но интересно попробовать и другие ароматы',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/eto-ya-tvoy-tverdyy-shampun-s-lavandoy-218644052' },
+        ]
+    },
+    {
+        name: 'Фильтр воды для кофемашины De\'Longhi DLSC002',
+        price: 1000,
+        image: '/wishlist/filter.jpg',
+        text: 'Меняю фильтр в кофемашине каждые 2 месяца. Можно выгодно купить в МВидео/Эльдорадо за бонусы.',
+        links: [
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--filtr-vody-dlia-kofemashiny-de-longhi-dlsc002/43054656' },
+            { name: 'De\'Longhi', url: 'https://delonghi.ru/product/de-longhi-filtr-dlya-kofemashin-de-longhisc002' },
+        ]
+    },
+    {
+        name: 'Средство De\'Longhi EcoDecalk DLSC500',
+        price: 1000,
+        image: '/wishlist/eco.jpg',
+        text: 'Всё для той же кофемашины. Это средство требуется для промывки примерно раз в месяц. Одной банки хватает на 5 промывок.',
+        links: [
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--sredstvo-de-longhi-ecodecalk-dlsc500-500-ml/388454715' },
+            { name: 'De\'Longhi', url: 'https://delonghi.ru/product/de-longhi-sr-ochistki-ot-nakipi-de-longhisc500' },
+        ]
+    },
+    {
+        name: 'Трусы',
+        price: 1000,
+        image: '/wishlist/pantsu.png',
+        text: 'Трусы только хлопковые, боксеры. Только компании: Columbia, FILA, Uniqlo. Отличный ассортимент в Спортмастере.',
+        links: [
+            { name: 'Спортмастер', url: 'https://www.sportmaster.ru/catalog/muzhskaya_odezhda/bele/?f-brand_id=6619,6638' },
+        ]
+    },
+    {
+        name: 'Ящик молока Parmalat 0.05% без лактозы',
+        price: 1500,
+        image: '/wishlist/milk.jpg',
+        text: 'Пью молоко каждый день с кофе. На неделю хватает двух пачек.',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/moloko-parmalat-uht-comfort-bezlaktoznoe-0-05-1-l-h-12-sht-178324381' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--moloko-parmalat-comfort-ultrapasterizovannoe-bezlaktoznoe-0-05-12-sht-po-1-l/663641328' },
+        ]
+    },
+    {
+        name: 'Фисташки',
+        price: 1600,
+        image: '/wishlist/fistashki.jpg',
+        text: 'Люблю фисташки, покупаю килограммами. Хорошие покупаю на Ozon',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/vkusnaya-zharenaya-solenaya-fistashka-fandogi-1-kg-iran-orehi-s-solyu-1-000-gr-iranskie-234062324' }
+        ]
+    },
+    {
+        name: 'Дозатор мыла-пены Xiaomi',
+        price: 2300,
+        image: '/wishlist/soap.jpg',
+        text: 'Дозатор, который вспенивает жидкое мыло и тем самым экономит его',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/dozator-zhidkogo-myla-xiaomi-mijia-automatic-foam-soap-dispenser-162617523' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--dozator-sensornyi-dlia-myla-peny-xiaomi-mijia-automatic-foam-soap-dispenser-mjxsj01xw-mjxsj03xw/334418045' },
+            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/100000000023.html' },
+        ]
+    },
+    {
+        name: 'Тостер Kitfort KT-2038',
+        price: 4000,
+        image: '/wishlist/toster.jpg',
+        text: 'Странноватого вида тостер. Цвет - чёрный или серый',
+        links: [
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--toster-kitfort-kt-2038/654749043' },
+        ]
+    },
+    {
+        name: 'Охлаждатель лица для квеста BOBOVR F2',
+        price: 4200,
+        image: '/wishlist/bobovrf2.jpg',
+        text: 'Хочу немного охладить лицо во время игр в VR',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/litsevoy-interfeys-s-aktivnoy-tsirkulyatsiey-vozduha-bobovr-f2-dlya-oculus-quest-2-302054936' },
+            { name: 'BOBOVR (из Америки)', url: 'https://www.bobovr.com/product/f2/' },
+        ]
+    },
+    {
+        name: 'Док станция для квеста BOBOVR D2',
+        price: 5000,
+        image: '/wishlist/bobovrd2.jpg',
+        text: 'Хочу немного охладить лицо во время игр в VR',
+        links: [
+            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/1005003962050705.html' },
+            { name: 'BOBOVR (из Америки)', url: 'https://www.bobovr.com/product/d2/' },
+        ]
+    },
+    {
+        name: 'Повязка для квеста BOBOVR M2',
+        price: 5500,
+        image: '/wishlist/bobovrm2.jpg',
+        text: 'Очень удобная повязка для Oculus Quest 2, давно хочу себе такую',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/reguliruemoe-kreplenie-bobovr-m2-dlya-shlema-oculus-quest-2-halo-strap-355772757' },
+            { name: 'BOBOVR (из Америки)', url: 'https://www.bobovr.com/product/m2/' },
+        ]
+    },
+    {
+        name: 'Паяльник TS100',
+        price: 7000,
+        image: '/wishlist/ts100.jpg',
+        text: 'Самый крутой и модный паяльник во вселенной. Подойдёт любое жало, если есть возможность выбрать - то жало лучше "BC-2".',
+        links: [
+            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/33007795183.html' },
+            { name: 'ЧипДип (дорого)', url: 'https://www.chipdip.ru/product0/8004056955' },
+        ]
+    },
+    {
+        name: 'Телефон Samsung S22',
+        price: 90000,
+        image: '/wishlist/s22.jpg',
+        text: 'Мой старенький телефон уже совсем плох, хочется поновее',
+    },
+];
+
+const Home: NextPage = () => {
+    const elements = useMemo(() => {
+        return items.map((i: WishlistItemData) => {
+            return <WishlistItem key={i.name} data={i} />
+        })
+    }, []);
+
+    return <MainLayout>
+        <h1>Что мне подарить? 🎁</h1>
+        <p>Список подарков и нужных вещей: от пары сотен тысяч, до миллионов миллиардов рублей.</p>
+        <p>Подарки расположены по увеличению цены</p>
+        <WishlistScrollspy items={items} />
+        {elements}
+    </MainLayout>
+}
+
+export default Home;
