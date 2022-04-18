@@ -41,13 +41,63 @@ const Index: NextPage = () => {
             <Header>Разработки «Для себя»</Header>
 
             <div className={styles.item}>
+                <Text>
+                    <Link href="https://play.google.com/store/apps/details?id=ru.patriotovsky.pricecalculator" target="_blank">
+                        Приложение Price Calculator для Android
+                    </Link>
+                </Text>
+                <div className={styles.small}>
+                    <Small>
+                        Уже более осмысленная разработка на Kotlin под Android. Является красивым реворком «Срванятиля цен» из списка ниже.
+                        Ну и работает быстрее, чем PWA.
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/price-calculator" target="_blank">Исходный код</Link>
+                    </Small>
+                </div>
+            </div>
+
+            <div className={styles.item}>
+                <Text>
+                    <Link href="https://play.google.com/store/apps/details?id=ru.patriotovsky.gamesdatabase" target="_blank">
+                        Приложение Games Database для Android
+                    </Link>
+                </Text>
+                <div className={styles.small}>
+                    <Small>
+                        Простенький враппер вокруг API RAWG.io. Написал для практики в Kotlin и мобильных приложениях, всегда мечтал разрабатывать на нативных языках.
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/games-database" target="_blank">Исходный код</Link>
+                    </Small>
+                </div>
+            </div>
+
+            <div className={styles.item}>
+                <Text>
+                    <Link href="https://play.google.com/store/apps/details?id=com.tinkoffjournal" target="_blank">
+                        Приложение Тинькофф Журнал для Android
+                    </Link>
+                </Text>
+                <div className={styles.small}>
+                    <Small>
+                        Приложение написал так, как люблю этот журнал, но до какого-то момента, у редакции не было своего приложения.
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/tinkoff-journal-react-native" target="_blank">Исходный код</Link>
+                    </Small>
+                </div>
+            </div>
+
+            <div className={styles.item}>
                 <Text><Link href="https://pass.patriotovsky.ru/" target="_blank">Генератор паролей</Link></Text>
                 <div className={styles.small}>
                     <Small>
                         Простенькое PWA на Next.js.
                         Генерирует пароли на стороне клиента, не делиться и не хранит их. Очень удобно и быстро, мало кнопок.
-                        <Link href="https://github.com/TTATPuOT/pass.patriotovsky.ru" target="_blank">Исходный код</Link> есть
-                        у меня на Github
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/pass.patriotovsky.ru" target="_blank">Исходный код</Link>
                     </Small>
                 </div>
             </div>
@@ -58,8 +108,11 @@ const Index: NextPage = () => {
                     <Small>
                         Простенькое PWA на React с использование фронтенд ферймворка Ant Design.
                         Сравнивает цены на разные продукты, которые имеют разную стоимость и
-                        количество. <Link href="https://github.com/TTATPuOT/price-compare" target="_blank">Исходный код</Link> есть
-                        у меня на Github. Можно добавить на главный экран телефона — сам пользуюсь очень часто
+                        количество. Можно добавить на главный экран телефона.
+                        Вместо этого, выше есть моё приложение для Android, которое работает быстрее.
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/price-compare" target="_blank">Исходный код</Link>
                     </Small>
                 </div>
             </div>
@@ -73,13 +126,6 @@ const Index: NextPage = () => {
                         написаны расширения для сервиса онлайн-трансляций
                         Twitch: <Link href="https://dashboard.twitch.tv/extensions/zyt20fl337b4xbaisl72m23j5ipkce-0.1.0" target="_blank">оверлей</Link> и <Link href="https://dashboard.twitch.tv/extensions/fw3xzmoe7jgzc4w6mnwhznvq9rkr3g-0.0.2" target="_blank">панель</Link>
                     </Small>
-                </div>
-            </div>
-
-            <div className={styles.item}>
-                <Text><Link href="https://github.com/TTATPuOT/FishGulpBootstrap" target="_blank">Удобная рыба для Gulp</Link></Text>
-                <div className={styles.small}>
-                    <Small>Простенькая заготовка для Gulp, чтобы было удобно верстать лично мне</Small>
                 </div>
             </div>
 
