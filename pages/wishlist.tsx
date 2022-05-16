@@ -80,26 +80,6 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Дозатор мыла-пены Xiaomi',
-        price: 2300,
-        image: '/wishlist/soap.jpg',
-        text: 'Дозатор, который вспенивает жидкое мыло и тем самым экономит его',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/dozator-zhidkogo-myla-xiaomi-mijia-automatic-foam-soap-dispenser-162617523' },
-            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--dozator-sensornyi-dlia-myla-peny-xiaomi-mijia-automatic-foam-soap-dispenser-mjxsj01xw-mjxsj03xw/334418045' },
-            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/100000000023.html' },
-        ]
-    },
-    {
-        name: 'Тостер Kitfort KT-2038',
-        price: 4000,
-        image: '/wishlist/toster.jpg',
-        text: 'Странноватого вида тостер. Цвет - чёрный или серый',
-        links: [
-            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--toster-kitfort-kt-2038/654749043' },
-        ]
-    },
-    {
         name: 'Охлаждатель лица для квеста BOBOVR F2',
         price: 4200,
         image: '/wishlist/bobovrf2.jpg',
