@@ -17,8 +17,10 @@ const Home: NextPage = () => {
                     <h1>Антон Неверов 🎉</h1>
                     <h2>JavaScript и PHP разработчик</h2>
                 </div>
-                <div className={styles.avatar}>
-                    <Image src={antohaImg} quality={95} />
+                <div>
+                    <div className={styles.avatar}>
+                        <Image src={antohaImg} quality={95} alt="Ну, это я" objectFit="cover" />
+                    </div>
                 </div>
             </div>
         </div>
