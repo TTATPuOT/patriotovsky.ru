@@ -42,6 +42,23 @@ const Index: NextPage = () => {
 
             <div className={styles.item}>
                 <Text>
+                    <Link href="https://play.google.com/store/apps/details?id=ru.patriotovsky.fitnesshouse" target="_blank">
+                        Приложение Fitness House для Android
+                    </Link>
+                </Text>
+                <div className={styles.small}>
+                    <Small>
+                        Ещё одна разработка на React Native. Расписание групповых занятий в сети фитнес-клубов Fitness House.
+                        Написал как практика в парсинге данных из HTML и последней версией React Native (работает быстро, кстати).
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/price-calculator" target="_blank">Исходный код</Link>
+                    </Small>
+                </div>
+            </div>
+
+            <div className={styles.item}>
+                <Text>
                     <Link href="https://play.google.com/store/apps/details?id=ru.patriotovsky.pricecalculator" target="_blank">
                         Приложение Price Calculator для Android
                     </Link>
