@@ -52,7 +52,7 @@ const Index: NextPage = () => {
                         Написал как практика в парсинге данных из HTML и последней версией React Native (работает быстро, кстати).
                     </Small>
                     <Small>
-                        <Link href="https://github.com/TTATPuOT/price-calculator" target="_blank">Исходный код</Link>
+                        <Link href="https://github.com/TTATPuOT/FitnessHouse-app" target="_blank">Исходный код</Link>
                     </Small>
                 </div>
             </div>
