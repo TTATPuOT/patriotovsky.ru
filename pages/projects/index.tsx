@@ -50,6 +50,8 @@ const Index: NextPage = () => {
                     <Small>
                         Ещё одна разработка на React Native. Расписание групповых занятий в сети фитнес-клубов Fitness House.
                         Написал как практика в парсинге данных из HTML и последней версией React Native (работает быстро, кстати).
+                        <br />
+                        Приложение удалено из стора по просьбе правообладателя.
                     </Small>
                     <Small>
                         <Link href="https://github.com/TTATPuOT/FitnessHouse-app" target="_blank">Исходный код</Link>

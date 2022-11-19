@@ -100,6 +100,12 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Хороший набор Lego',
+        price: 5000,
+        image: '/wishlist/lego.jpg',
+        text: 'Lego всегда тема. Серии Technic, Architecture, Ideas, Minecraft. Creator 3-in-1 не очень понравился, разбирать собранное не очень интересно.'
+    },
+    {
         name: 'Повязка для квеста BOBOVR M2',
         price: 5500,
         image: '/wishlist/bobovrm2.jpg',
@@ -120,10 +126,30 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Набор для сборки механической клавиатуры',
+        price: 7000,
+        image: '/wishlist/keyboard.jpg',
+        text: 'Нужно купить всё из комплекта: корпус, свичи (кнопочки) и кейкапы (насадки на кнопочки). Доставка с Алиэксперсса в МСК/Спб быстрая. Ключевые моменты: корпус EPOMAKER GK108 белый, производитель свичей Gateron, цвет свичей Brown, нужно 110 штук (110pcs) минимум. Кейкапы какие хочу приложил в ссылках.',
+        links: [
+            { name: 'Корпус EPOMAKER GK108 белый', url: 'https://aliexpress.ru/item/1005002782953368.html?sku_id=12000022162330737' },
+            { name: 'Свичи Gateron Brown 110 штук минимум', url: 'https://aliexpress.ru/item/1005002148465444.html?sku_id=12000018893310563' },
+            { name: 'Кейкапы белые', url: 'https://aliexpress.ru/item/1005001474971032.html?sku_id=12000016271171401' },
+        ]
+    },
+    {
+        name: 'Мышь Logitech PRO X SUPERLIGHT белая',
+        price: 12000,
+        image: '/wishlist/mouse.png',
+        text: 'Logitech ушёл из России, найти может быть не просто. Некоторые магазины уже продают дороже, чем она стоила раньше.',
+        links: [
+            { name: 'Дороже в DNS', url: 'https://www.dns-shop.ru/product/d3fdf4c73da01b80/mys-besprovodnaa-logitech-pro-x-superlight-910-005942-belyj/' },
+        ]
+    },
+    {
         name: 'Телефон Samsung S22',
-        price: 90000,
+        price: 55000,
         image: '/wishlist/s22.jpg',
-        text: 'Мой старенький телефон уже совсем плох, хочется поновее',
+        text: 'Цвет - белый',
     },
 ];
 
