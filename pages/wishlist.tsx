@@ -23,8 +23,17 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Ювелирные весы массой до 1-2кг',
+        price: 500,
+        image: '/wishlist/scales.jpg',
+        text: 'Устал от своих дешёвых весов, которые ничего толком не могут измерить. Важно, чтобы они были точными, до 0.1 грамма, а максимальный вес хотя бы 1 кг.',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/elektronnye-professionalnye-yuvelirnye-kuhonnye-karmannye-vesy-s-tochnostyu-do-0-1-gramm-826429791' }
+        ]
+    },
+    {
         name: 'Твердый шампунь «Это я»',
-        price: 560,
+        price: 650,
         image: '/wishlist/soap2.jpg',
         text: 'Вкусно пахнет и хорошо моет. Хватает только совсем не надолго. Нравится с лавандой, но интересно попробовать и другие ароматы',
         links: [
@@ -80,13 +89,13 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Охлаждатель лица для квеста BOBOVR F2',
-        price: 4200,
-        image: '/wishlist/bobovrf2.jpg',
-        text: 'Хочу немного охладить лицо во время игр в VR',
+        name: 'Триммер Philips OneBlade',
+        price: 4000,
+        image: '/wishlist/oneblade.jpg',
+        text: 'Любой модификации. Главное - серии OneBlade, они все хорошие. Количество насадок не важно, насадками пользоваться не буду всё равно.',
         links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/litsevoy-interfeys-s-aktivnoy-tsirkulyatsiey-vozduha-bobovr-f2-dlya-oculus-quest-2-302054936' },
-            { name: 'BOBOVR (из Америки)', url: 'https://www.bobovr.com/product/f2/' },
+            { name: 'DNS', url: 'https://www.dns-shop.ru/product/21e5a38705a03330/trimmer-philips-qp252020-oneblade/' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--trimmer-philips-oneblade-qp2520-20/14229140?cpa=1' },
         ]
     },
     {
@@ -106,6 +115,16 @@ const items: WishlistItemData[] = [
         text: 'Lego всегда тема. Серии Technic, Architecture, Ideas, Minecraft. Creator 3-in-1 не очень понравился, разбирать собранное не очень интересно.'
     },
     {
+        name: 'Паяльник TS100',
+        price: 5200,
+        image: '/wishlist/ts100.jpg',
+        text: 'Самый крутой и модный паяльник во вселенной. Подойдёт любое жало, если есть возможность выбрать - то жало лучше "BC-2".',
+        links: [
+            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/32860309312.html' },
+            { name: 'ЧипДип (дорого)', url: 'https://www.chipdip.ru/product0/8004056955' },
+        ]
+    },
+    {
         name: 'Повязка для квеста BOBOVR M2',
         price: 5500,
         image: '/wishlist/bobovrm2.jpg',
@@ -116,40 +135,53 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Паяльник TS100',
+        name: 'Роутер Keenetic Hopper',
         price: 7000,
-        image: '/wishlist/ts100.jpg',
-        text: 'Самый крутой и модный паяльник во вселенной. Подойдёт любое жало, если есть возможность выбрать - то жало лучше "BC-2".',
+        image: '/wishlist/router.jpg',
+        text: 'Давно хочу обновить роутер. Но мой меня вполне устраивает. Но вот бы wifi 6 и USB порт не помешал бы совсем. Keenetic делает лучшие роутеры на данный момент. Hopper - минимально оптимальная модель, отвечающая всем моим требованиям. Можно и круче, например Giga.',
         links: [
-            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/33007795183.html' },
-            { name: 'ЧипДип (дорого)', url: 'https://www.chipdip.ru/product0/8004056955' },
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/wi-fi-router-keenetic-hopper-kn-3810-554543961' },
         ]
     },
     {
-        name: 'Набор для сборки механической клавиатуры',
-        price: 7000,
-        image: '/wishlist/keyboard.jpg',
-        text: 'Нужно купить всё из комплекта: корпус, свичи (кнопочки) и кейкапы (насадки на кнопочки). Доставка с Алиэксперсса в МСК/Спб быстрая. Ключевые моменты: корпус EPOMAKER GK108 белый, производитель свичей Gateron, цвет свичей Brown, нужно 110 штук (110pcs) минимум. Кейкапы какие хочу приложил в ссылках.',
+        name: 'Бытовой измельчитель Bort TITAN MAX Power FullControl',
+        price: 16000,
+        image: '/wishlist/bort.jpg',
+        text: 'Очень хочу себе измельчитель бытовых отходов. Полностью устроит эта модель.',
         links: [
-            { name: 'Корпус EPOMAKER GK108 белый', url: 'https://aliexpress.ru/item/1005002782953368.html?sku_id=12000022162330737' },
-            { name: 'Свичи Gateron Brown 110 штук минимум', url: 'https://aliexpress.ru/item/1005002148465444.html?sku_id=12000018893310563' },
-            { name: 'Кейкапы белые', url: 'https://aliexpress.ru/item/1005001474971032.html?sku_id=12000016271171401' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--bytovoi-izmelchitel-bort-titan-max-power-fullcontrol/512987113' },
         ]
     },
     {
-        name: 'Мышь Logitech PRO X SUPERLIGHT белая',
-        price: 12000,
-        image: '/wishlist/mouse.png',
-        text: 'Logitech ушёл из России, найти может быть не просто. Некоторые магазины уже продают дороже, чем она стоила раньше.',
+        name: 'Геймпад DualSense Edge',
+        price: 24000,
+        image: '/wishlist/gamepad.jpg',
+        text: 'Самый крутой геймпад на данный момент. Но и стоит как половина консоли.',
         links: [
-            { name: 'Дороже в DNS', url: 'https://www.dns-shop.ru/product/d3fdf4c73da01b80/mys-besprovodnaa-logitech-pro-x-superlight-910-005942-belyj/' },
+            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/1005005149345063.html?sku_id=12000032597391279' },
+            { name: 'CDEK Shopping', url: 'https://cdek.shopping/p/353106/besprovodnoi-geimpad-sony-dualsense-edge-belyi' },
+            { name: 'ИгроРай', url: 'https://igroray.ru/catalog/geympad-sony-dualsense-edge/' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--besprovodnoi-geimpad-dualsense-edge-cfi-zcp1/1810726144' },
         ]
     },
     {
-        name: 'Телефон Samsung S22',
-        price: 55000,
-        image: '/wishlist/s22.jpg',
-        text: 'Цвет - белый',
+        name: 'Кондиционер Daichi Beta B25AVQ1_UNL/B25FV1_UNL',
+        price: 25000,
+        image: '/wishlist/cold.jpg',
+        text: 'До лета нужно успеть охладиться. Выбрал этот кондей, меня полностью устраивает, есть всё необходимое. Главное - купить. Установку закажу отельно, это не так сложно.',
+        links: [
+            { name: 'Яндекс.Макрет', url: 'https://market.yandex.ru/product--oblachnyi-konditsioner-daichi-beta-b25avq1-unl-b25fv1-unl-podpiska-vkliuchena/1768605306' },
+        ]
+    },
+    {
+        name: 'Steam Deck',
+        price: 45000,
+        image: '/wishlist/deck.jpg',
+        text: 'Нормальная портативная консоль. Стоит немало. Чтобы сэкономить лучше купить версию с 64ГБ памяти, а потом вставить SD-карту.',
+        links: [
+            { name: 'Яндекс.Макрет', url: 'https://market.yandex.ru/product--igrovaia-pristavka-valve-steam-deck/1786450461' },
+            { name: 'DNS', url: 'https://www.dns-shop.ru/product/a087d8a03a28ed20/portativnaa-igrovaa-konsol-steam-deck/' },
+        ]
     },
 ];
 
