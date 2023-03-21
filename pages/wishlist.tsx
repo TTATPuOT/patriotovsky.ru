@@ -99,6 +99,22 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Игры для PlayStation 5',
+        price: 5000,
+        image: '/wishlist/games.jpg',
+        text: 'Хороших игр много, многие из них я пропустил, нужно наращивать упущенное. Чтобы не удлинять список, здесь оставляю ссылку на все игры, которые мне интересны (сверху самые интересные, ниже менее интересные). Купить можно где угодно. Важно, чтобы продавец продавал именно диск с игрой, а не аккаунт или цифровую версию.',
+        links: [
+            { name: 'Dead Space Remake (не путать с игрой 2008 года, нужен именно REMAKE) - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-dead-space-remake/1822990425' },
+            { name: 'Hogwarts Legacy - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-hogwarts-legacy-standard-edition-dlia-playstation-5/1812470565' },
+            { name: 'Need for Speed Unbound - 4600 руб, Маркет', url: 'https://market.yandex.ru/product--igra-need-for-speed-unbound/1823018275' },
+            { name: 'Человек-Паук: Майлз Моралес - 3700 руб, Маркет', url: 'https://market.yandex.ru/product--igra-chelovek-pauk-mailz-morales/749526764' },
+            { name: 'The Callisto Protocol - 5000 руб, Маркет', url: 'https://market.yandex.ru/product--videoigra-the-callisto-protocol-ps5-s-russkimi-subtitrami/1773846968' },
+            { name: 'Ratchet & Clank: Сквозь Миры - 4000 руб, Маркет', url: 'https://market.yandex.ru/product--igra-ratchet-clank-skvoz-miry/942818431' },
+            { name: 'Kena: Bridge of Spirits - 3400 руб, Маркет', url: 'https://www.ozon.ru/product/igra-kena-bridge-of-spirits-deluxe-edition-playstation-5-russkie-subtitry-849053851' },
+            { name: 'Sonic Frontiers - 3700 руб, Маркет', url: 'https://www.ozon.ru/product/igra-ps5-sonic-frontiers-russkie-subtitry-playstation-5-russkie-subtitry-825064316' },
+        ]
+    },
+    {
         name: 'Док станция для квеста BOBOVR D2',
         price: 5000,
         image: '/wishlist/bobovrd2.jpg',
