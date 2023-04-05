@@ -23,24 +23,6 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Ювелирные весы массой до 1-2кг',
-        price: 500,
-        image: '/wishlist/scales.jpg',
-        text: 'Устал от своих дешёвых весов, которые ничего толком не могут измерить. Важно, чтобы они были точными, до 0.1 грамма, а максимальный вес хотя бы 1 кг.',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/elektronnye-professionalnye-yuvelirnye-kuhonnye-karmannye-vesy-s-tochnostyu-do-0-1-gramm-826429791' }
-        ]
-    },
-    {
-        name: 'Твердый шампунь «Это я»',
-        price: 650,
-        image: '/wishlist/soap2.jpg',
-        text: 'Вкусно пахнет и хорошо моет. Хватает только совсем не надолго. Нравится с лавандой, но интересно попробовать и другие ароматы',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/eto-ya-tvoy-tverdyy-shampun-s-lavandoy-218644052' },
-        ]
-    },
-    {
         name: 'Фильтр воды для кофемашины De\'Longhi DLSC002',
         price: 1000,
         image: '/wishlist/filter.jpg',
@@ -86,16 +68,6 @@ const items: WishlistItemData[] = [
         text: 'Люблю фисташки, покупаю килограммами. Хорошие покупаю на Ozon',
         links: [
             { name: 'Ozon', url: 'https://www.ozon.ru/product/vkusnaya-zharenaya-solenaya-fistashka-fandogi-1-kg-iran-orehi-s-solyu-1-000-gr-iranskie-234062324' }
-        ]
-    },
-    {
-        name: 'Триммер Philips OneBlade',
-        price: 4000,
-        image: '/wishlist/oneblade.jpg',
-        text: 'Любой модификации. Главное - серии OneBlade, они все хорошие. Количество насадок не важно, насадками пользоваться не буду всё равно.',
-        links: [
-            { name: 'DNS', url: 'https://www.dns-shop.ru/product/21e5a38705a03330/trimmer-philips-qp252020-oneblade/' },
-            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--trimmer-philips-oneblade-qp2520-20/14229140?cpa=1' },
         ]
     },
     {
@@ -178,15 +150,6 @@ const items: WishlistItemData[] = [
             { name: 'CDEK Shopping', url: 'https://cdek.shopping/p/353106/besprovodnoi-geimpad-sony-dualsense-edge-belyi' },
             { name: 'ИгроРай', url: 'https://igroray.ru/catalog/geympad-sony-dualsense-edge/' },
             { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--besprovodnoi-geimpad-dualsense-edge-cfi-zcp1/1810726144' },
-        ]
-    },
-    {
-        name: 'Кондиционер Daichi Beta B25AVQ1_UNL/B25FV1_UNL',
-        price: 25000,
-        image: '/wishlist/cold.jpg',
-        text: 'До лета нужно успеть охладиться. Выбрал этот кондей, меня полностью устраивает, есть всё необходимое. Главное - купить. Установку закажу отельно, это не так сложно.',
-        links: [
-            { name: 'Яндекс.Макрет', url: 'https://market.yandex.ru/product--oblachnyi-konditsioner-daichi-beta-b25avq1-unl-b25fv1-unl-podpiska-vkliuchena/1768605306' },
         ]
     },
     {
