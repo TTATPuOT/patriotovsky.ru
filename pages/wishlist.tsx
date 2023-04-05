@@ -76,7 +76,6 @@ const items: WishlistItemData[] = [
         image: '/wishlist/games.jpg',
         text: 'Хороших игр много, многие из них я пропустил, нужно наращивать упущенное. Чтобы не удлинять список, здесь оставляю ссылку на все игры, которые мне интересны (сверху самые интересные, ниже менее интересные). Купить можно где угодно. Важно, чтобы продавец продавал именно диск с игрой, а не аккаунт или цифровую версию.',
         links: [
-            { name: 'Dead Space Remake (не путать с игрой 2008 года, нужен именно REMAKE) - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-dead-space-remake/1822990425' },
             { name: 'Hogwarts Legacy - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-hogwarts-legacy-standard-edition-dlia-playstation-5/1812470565' },
             { name: 'Need for Speed Unbound - 4600 руб, Маркет', url: 'https://market.yandex.ru/product--igra-need-for-speed-unbound/1823018275' },
             { name: 'Человек-Паук: Майлз Моралес - 3700 руб, Маркет', url: 'https://market.yandex.ru/product--igra-chelovek-pauk-mailz-morales/749526764' },
