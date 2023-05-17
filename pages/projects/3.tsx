@@ -1,6 +1,6 @@
 import {NextPage} from "next";
 import {MainLayout} from "@components/Layout";
-import Block, {Header, Link, Text} from "@components/Block";
+import Block, {Header, Text} from "@components/Block";
 
 const Pulsar: NextPage = () => {
     return <MainLayout>
@@ -12,7 +12,7 @@ const Pulsar: NextPage = () => {
         <Block>
             <Header>Кратко</Header>
             <Text>
-                Заказчик обратился с просьбой создать четыре бота для автоматизации поддержки покупателей в самых популярных мессендерах: Telegram, Viber, Facebook и Вконтакте.
+                Заказчик обратился с просьбой создать четыре бота для автоматизации поддержки покупателей в самых популярных мессенджерах: Telegram, Viber, Facebook и Вконтакте.
                 <br/><br/>
                 Заказчик хотел, чтобы бот общался как человек и понимал вопросы в свободной форме.
                 <br/><br/>

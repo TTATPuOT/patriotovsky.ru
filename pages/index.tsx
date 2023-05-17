@@ -53,22 +53,30 @@ const Home: NextPage = () => {
                     </div>
                 </div>
                 <div className={styles.bio}>
-                    <div className={styles.year}>2018-н.в.</div>
+                    <div className={styles.year}>
+                        2021
+                        <br/>
+                        2022
+                    </div>
                     <div className={styles.text}>
-                        <Link href="/projects/1">Ведущий разработчик в фотостудии “Непоседы”</Link>
+                        Фулстак разработчик в агенстве ZooInSpace
                         <Small>
-                            Развиваю интернет-магазин, внутреннюю CRM, оптимизирую бизнес-процессы. Работа и хранение с
-                            большим количеством фото. Всё так же удалённо
+                            Занимался преимущественно бекендом для различных проектов, но также были задачи по
+                            фронтенду и мобильным приложениям
                         </Small>
                     </div>
                 </div>
                 <div className={styles.bio}>
-                    <div className={styles.year}>2021-н.в.</div>
+                    <div className={styles.year}>
+                        2018
+                        <br/>
+                        н.в.
+                    </div>
                     <div className={styles.text}>
-                        Фулстак разработчик в агенстве ZooInSpace
+                        <Link href="/projects/1">Ведущий разработчик в фотостудии “Непоседы”</Link>
                         <Small>
-                            Занимаюсь преимущественно бекендом для различных проектов, но также смело беру задачи по
-                            фронтенду и мобильным приложениям
+                            Развиваю интернет-магазин, внутреннюю CRM, оптимизирую бизнес-процессы. Работа и хранение с
+                            большим количеством фото
                         </Small>
                     </div>
                 </div>
@@ -79,7 +87,7 @@ const Home: NextPage = () => {
             <BlockHeader>Стэк</BlockHeader>
             <Text>
                 <div className={styles.stack}>
-                    Чаще всего использую <b>JavaScript</b> и ему подобные. Просто обажаю <b>TypeScript</b>.
+                    Чаще всего использую <b>JavaScript</b> и ему подобные. Просто обожаю <b>TypeScript</b>.
                     На бекенде чаще всего именно он, хотя иногда приходится использовать <b>PHP</b> и <b>Laravel</b>,
                     но если нужен очень простой API, можно и <b>Express</b>. Фронт будет на <b>React</b>, сильно
                     реже <b>Vue</b>. А иногда нужны шаблонизаторы: <b>Smarty</b>, <b>Blade</b>, <b>Mustache</b>, <b>Pug</b>.
@@ -110,21 +118,21 @@ const Home: NextPage = () => {
             <div className={styles.contacts}>
                 <div className={styles.column}>
                     <div className={styles.contact}>
-                        <a href="https://github.com/TTATPuOT" target="_blank" title="Github"><FontAwesomeIcon icon={faGithub} /> TTATPuOT</a>
+                        <a href="https://github.com/TTATPuOT" target="_blank" title="Github" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> TTATPuOT</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="https://linkedin.com/in/neverov12" target="_blank" title="Linkedin"><FontAwesomeIcon icon={faLinkedin} /> neverov12</a>
+                        <a href="https://linkedin.com/in/neverov12" target="_blank" title="Linkedin" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> neverov12</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="https://qna.habr.com/user/TTATPuOT" target="_blank" title="Хабр Q&A"><FontAwesomeIcon icon={faQuestionCircle} /> TTATPuOT</a>
+                        <a href="https://qna.habr.com/user/TTATPuOT" target="_blank" title="Хабр Q&A" rel="noreferrer"><FontAwesomeIcon icon={faQuestionCircle} /> TTATPuOT</a>
                     </div>
                 </div>
                 <div className={styles.column}>
                     <div className={styles.contact}>
-                        <a href="https://t.me/neverov12" target="_blank" title="Telegram"><FontAwesomeIcon icon={faTelegram} /> @neverov12</a>
+                        <a href="https://t.me/neverov12" target="_blank" title="Telegram" rel="noreferrer"><FontAwesomeIcon icon={faTelegram} /> @neverov12</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="mailto:neverov12@gmail.com" target="_blank" title="Email"><FontAwesomeIcon icon={faEnvelope} /> neverov12@gmail.com</a>
+                        <a href="mailto:neverov12@gmail.com" target="_blank" title="Email" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /> neverov12@gmail.com</a>
                     </div>
                 </div>
             </div>
