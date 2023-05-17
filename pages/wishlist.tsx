@@ -52,6 +52,15 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Трусы',
+        price: 1000,
+        image: '/wishlist/pantsu.png',
+        text: 'Трусы только хлопковые, боксеры. Только компании: Columbia, FILA, Uniqlo. Отличный ассортимент в Спортмастере.',
+        links: [
+            { name: 'Спортмастер', url: 'https://www.sportmaster.ru/catalog/muzhskaya_odezhda/bele/?f-brand_id=6619,6638' },
+        ]
+    },
+    {
         name: 'Ящик молока Parmalat 0.05% без лактозы',
         price: 1500,
         image: '/wishlist/milk.jpg',
@@ -71,13 +80,25 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Триммер Philips OneBlade',
+        price: 4000,
+        image: '/wishlist/oneblade.jpg',
+        text: 'Любой модификации. Главное - серии OneBlade, они все хорошие. Количество насадок не важно, насадками пользоваться не буду всё равно.',
+        links: [
+            { name: 'DNS', url: 'https://www.dns-shop.ru/product/21e5a38705a03330/trimmer-philips-qp252020-oneblade/' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--trimmer-philips-oneblade-qp2520-20/14229140?cpa=1' },
+        ]
+    },
+    {
         name: 'Игры для PlayStation 5',
         price: 5000,
         image: '/wishlist/games.jpg',
         text: 'Хороших игр много, многие из них я пропустил, нужно наращивать упущенное. Чтобы не удлинять список, здесь оставляю ссылку на все игры, которые мне интересны (сверху самые интересные, ниже менее интересные). Купить можно где угодно. Важно, чтобы продавец продавал именно диск с игрой, а не аккаунт или цифровую версию.',
         links: [
+            { name: 'Dead Space Remake (не путать с игрой 2008 года, нужен именно REMAKE) - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-dead-space-remake/1822990425' },
             { name: 'Hogwarts Legacy - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-hogwarts-legacy-standard-edition-dlia-playstation-5/1812470565' },
             { name: 'Need for Speed Unbound - 4600 руб, Маркет', url: 'https://market.yandex.ru/product--igra-need-for-speed-unbound/1823018275' },
+            { name: 'Человек-Паук: Майлз Моралес - 3700 руб, Маркет', url: 'https://market.yandex.ru/product--igra-chelovek-pauk-mailz-morales/749526764' },
             { name: 'The Callisto Protocol - 5000 руб, Маркет', url: 'https://market.yandex.ru/product--videoigra-the-callisto-protocol-ps5-s-russkimi-subtitrami/1773846968' },
             { name: 'Ratchet & Clank: Сквозь Миры - 4000 руб, Маркет', url: 'https://market.yandex.ru/product--igra-ratchet-clank-skvoz-miry/942818431' },
             { name: 'Kena: Bridge of Spirits - 3400 руб, Маркет', url: 'https://www.ozon.ru/product/igra-kena-bridge-of-spirits-deluxe-edition-playstation-5-russkie-subtitry-849053851' },
@@ -148,6 +169,15 @@ const items: WishlistItemData[] = [
             { name: 'CDEK Shopping', url: 'https://cdek.shopping/p/353106/besprovodnoi-geimpad-sony-dualsense-edge-belyi' },
             { name: 'ИгроРай', url: 'https://igroray.ru/catalog/geympad-sony-dualsense-edge/' },
             { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--besprovodnoi-geimpad-dualsense-edge-cfi-zcp1/1810726144' },
+        ]
+    },
+    {
+        name: 'Кондиционер Daichi Beta B25AVQ1_UNL/B25FV1_UNL',
+        price: 25000,
+        image: '/wishlist/cold.jpg',
+        text: 'До лета нужно успеть охладиться. Выбрал этот кондей, меня полностью устраивает, есть всё необходимое. Главное - купить. Установку закажу отельно, это не так сложно.',
+        links: [
+            { name: 'Яндекс.Макрет', url: 'https://market.yandex.ru/product--oblachnyi-konditsioner-daichi-beta-b25avq1-unl-b25fv1-unl-podpiska-vkliuchena/1768605306' },
         ]
     },
     {
