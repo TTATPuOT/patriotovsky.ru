@@ -63,11 +63,11 @@ const items: WishlistItemData[] = [
     },
     {
         name: 'Зарядная станция для геймпадов PS5',
-        price: 2500,
+        price: 2700,
         image: '/wishlist/dock.png',
         text: 'ВАЖНО! Очень часто подделывают. Нужно читать отзывы или покупать в проверенных магазина (DNS, М.Видео, Эльдорадо). Ссылки на оригиналы добавил. Если цена ниже - скорее всего, подделка. На озоне не нашёл дешёвых оригинальных вариантов.',
         links: [
-            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--zariadnaia-stantsiia-dualsense-na-dva-geimpada-dlia-ps5' },
+            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--zariadnaia-stantsiia-dualsense-na-dva-geimpada-dlia-ps5/691136023' },
             { name: 'DNS', url: 'https://www.dns-shop.ru/product/ea7634350414ed20/zaradnaa-stancia-playstation-dualsense-charging-station-belyj' },
         ]
     },
