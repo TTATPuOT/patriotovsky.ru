@@ -77,7 +77,6 @@ const items: WishlistItemData[] = [
         image: '/wishlist/games.jpg',
         text: 'Хороших игр много, многие из них я пропустил, нужно наращивать упущенное. Чтобы не удлинять список, здесь оставляю ссылку на все игры, которые мне интересны (сверху самые интересные, ниже менее интересные). Купить можно где угодно. Важно, чтобы продавец продавал именно диск с игрой, а не аккаунт или цифровую версию.',
         links: [
-            { name: 'Dragons Dogma 2 - 7500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-dragons-dogma-ii-2-playstation-5-russkie-subtitry-1459408726' },
             { name: 'Hogwarts Legacy - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-hogwarts-legacy-standard-edition-dlia-playstation-5/1812470565' },
             { name: 'Ratchet & Clank: Сквозь Миры - 4000 руб, Маркет', url: 'https://market.yandex.ru/product--igra-ratchet-clank-skvoz-miry/942818431' },
         ]
@@ -105,26 +104,6 @@ const items: WishlistItemData[] = [
         text: 'Давно хочу обновить роутер. Но мой меня вполне устраивает. Но вот wifi 6 и USB порт не помешали бы совсем. Keenetic делает лучшие роутеры на данный момент. Hopper - минимально оптимальная модель, отвечающая всем моим требованиям. Можно и круче, например Giga.',
         links: [
             { name: 'Ozon', url: 'https://www.ozon.ru/product/wi-fi-router-keenetic-hopper-kn-3810-554543961' },
-        ]
-    },
-    {
-        name: 'Белая Яндекс.Станция Миди с Zigbee',
-        price: 12000,
-        image: '/wishlist/ya.png',
-        text: 'Zigbee - это такой протокол для управлением умным домом',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/umnaya-kolonka-yandeks-stantsiya-midi-s-alisoy-s-zigbee-seryy-1406852214' },
-            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--stantsiia-midi/1910792707?sku=102224829824' },
-        ]
-    },
-    {
-        name: 'Galaxy Watch 6 Classic 43mm',
-        price: 25000,
-        image: '/wishlist/watch.png',
-        text: 'Чёрные или серебристые часы с вензелем, 43мм. Бывает ещё более крутая версия на 47мм, иногда она даже дешевле младшей версии.',
-        links: [
-            { name: 'Серебристые, Яндекс.Маркет', url: 'https://market.yandex.ru/product--samsung-galaxy-watch-6-classic-43mm-silver/1934571910?sku=102399066883&do-waremd5=PDLByR3dnqxNbuNzaGvtTQ&uniqueId=965815' },
-            { name: 'Черные, Ozon', url: 'https://www.ozon.ru/product/samsung-umnye-chasy-galaxy-watch-6-classic-47mm-r960-versiya-version-1-5-super-amoled-ekran-gps-1176165742/' },
         ]
     },
     {
