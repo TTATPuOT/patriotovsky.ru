@@ -21,7 +21,7 @@ const WishlistItem = (props: WishlistProps) => {
     }, [data.links]);
 
     return <div className={styles.item}>
-        <h2>{data.name} (~{new Intl.NumberFormat().format(data.price)} руб)</h2>
+        <h2>{data.name} ~{new Intl.NumberFormat().format(data.price)}₽</h2>
 
         {!!data.image &&
             <div className={styles.images}>

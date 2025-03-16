@@ -23,17 +23,54 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Фисташки',
-        price: 1600,
-        image: '/wishlist/fistashki.jpg',
-        text: 'Люблю фисташки, покупаю килограммами. Хорошие покупаю на Ozon',
+        name: 'Мясные наборы',
+        price: 1000,
+        image: '/wishlist/meat.png',
+        text: 'Люблю любое тонко нарезанное мясо и колбасы: прошутто, хамон, балык и т.д.'
+    },
+    {
+        name: 'Датчики протечек с протоколом Zigbee или Metter',
+        price: 1000,
+        image: '/wishlist/water.png',
+        text: 'Датчики, которые подключаются к Алиси Миди (протоколы Zigbee, Metter, умный дом Яндекса). Всего нужно 3-4 штуки, но хватит и 1-2 пока что',
         links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/vkusnaya-zharenaya-solenaya-fistashka-fandogi-1-kg-iran-orehi-s-solyu-1-000-gr-iranskie-234062324' }
+            { name: 'От китайцев (хорошая фирма), Ozon', url: 'https://www.ozon.ru/product/umnyy-datchik-protechki-zigbee-yandeks-alisoy-google-home-1567283765/' },
+            { name: 'От Яндекса, Ozon', url: 'https://www.ozon.ru/product/datchik-protechki-yandeks-zigbee-yndx-00521-912307791' },
+        ]
+    },
+    {
+        name: 'Мармеладки от Мармеладыча',
+        price: 1000,
+        image: '/wishlist/mar.png',
+        text: 'Очень люблю их наборы. Можно дарить любые, кроме лакрицы. Сладкие, кислые - все съем.',
+        links: [
+            { name: 'Мармеладыч на Ozon', url: 'https://www.ozon.ru/seller/marmeladych-2079989/products/?miniapp=seller_2079989' },
+        ]
+    },
+    {
+        name: 'Cменные лезвия для Philips OneBlade',
+        price: 1500,
+        image: '/wishlist/oneblade.png',
+        text: 'Раз в год нужно менять лезвия на моём триммере. Текущее лезвие уже очень давно устало. Лучше всего покупать в офлайн магазине, там меньше вероятность купить подделку. Но на Ozon/Маркете тоже можно найти.'
+    },
+    {
+        name: 'Сертификат на полную мойку авто',
+        price: 2000,
+        image: '/wishlist/wash.png',
+        text: 'Сертификат на мойку авто с протиркой панелей салона и пылесосом. В любую автомойку на северо-западе Питера'
+    },
+    {
+        name: 'Кофе в зернах Sibaristica Эфиопия Иргачефф',
+        price: 2000,
+        image: '/wishlist/coffee.png',
+        text: 'Отличный кофе от питерского обжарщика, но можно и другое в зёрнах (только не ароматизированные зёрна, их нельзя в кофемашину)',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/kofe-v-zernah-sibaristica-efiopiya-irgacheff-srednyaya-obzharka-1kg-876315989/' },
         ]
     },
     {
         name: 'Ящик молока Parmalat 0.05% без лактозы',
-        price: 1700,
+        price: 2000,
         image: '/wishlist/milk.jpg',
         text: 'Пью молоко каждый день с кофе. На неделю хватает одной пачки.',
         links: [
@@ -41,15 +78,22 @@ const items: WishlistItemData[] = [
         ]
     },
     {
+        name: 'Беспроводная кнопка Яндекс',
+        price: 2200,
+        image: '/wishlist/button.png',
+        text: 'Это, просто, такая кнопка, куда можно кликать и она что-то сделает. Давно хочу такую на роль мастер-выключателя света',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/besprovodnaya-knopka-yandeks-zigbee-yndx-00524-912313227/' },
+        ]
+    },
+    {
         name: 'Ящик сладких напитков',
         price: 2500,
         image: '/wishlist/cola.png',
-        text: 'Люблю всякие напитки. Чтобы не дарить чуть-чуть, можно подарить сразу ящик! Я люблю: Coca-Cola (Добрый кола) обычная/ванильная/без сахара, капучино/латте от Lotte/Parmalat, Милкис обычный, Chupa Chups, Dr. Pepper (обычный, Cream Soda), Dr.Pepper Flat Vanilla (мой любимый)',
+        text: 'Люблю всякие напитки. Чтобы не дарить чуть-чуть, можно подарить сразу ящик! Я люблю: Coca-Cola обычная/ванильная/без сахара, капучино/латте от Lotte/Parmalat, Милкис обычный, Chupa Chups, Dr. Pepper, Dr.Pepper Flat Vanilla (мой любимый)',
         links: [
-            { name: 'Добрый, Ozon', url: 'https://www.ozon.ru/product/gazirovannyy-napitok-dobryy-kola-24-sht-h-0-33-l-688376387/' },
-            { name: 'Добрый без сахара, Ozon', url: 'https://www.ozon.ru/product/gazirovannyy-napitok-dobryy-kola-bez-sahara-12-sht-h-0-33-l-688375923' },
+            { name: 'Dr Pepper Vanilla Float, Ozon', url: 'https://www.ozon.ru/product/gazirovannyy-napitok-dr-pepper-vanilla-float-335-ml-h-12-sht-1644902228' },
             { name: 'Dr Pepper, Ozon', url: 'https://www.ozon.ru/product/napitok-gazirovannyy-dr-pepper-classic-24-sht-h-330-ml-doktor-pepper-1215351614' },
-            { name: 'Chupa-Chups клубинчный, Ozon', url: 'https://www.ozon.ru/product/chupa-chups-klubnika-so-slivkami-0-345l-12sht-chupa-chups-1418772607' },
         ]
     },
     {
@@ -62,13 +106,12 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Зарядная станция для геймпадов PS5',
-        price: 2700,
-        image: '/wishlist/dock.png',
-        text: 'ВАЖНО! Очень часто подделывают. Нужно читать отзывы или покупать в проверенных магазина (DNS, М.Видео, Эльдорадо). Ссылки на оригиналы добавил. Если цена ниже - скорее всего, подделка. На озоне не нашёл дешёвых оригинальных вариантов.',
+        name: 'Кейкапы для клавиатуры с прозрачными полосами',
+        price: 2500,
+        image: '/wishlist/keycaps.png',
+        text: 'Набор кейкапов с прозрачными линиями. Видел такие кейкапы в тиктоке, но жаба душит самому купить. Можно поискать и другие на клавиатуру 100%, но много где это рисунок, а не реально прозрачные линии.',
         links: [
-            { name: 'Яндекс.Маркет', url: 'https://market.yandex.ru/product--zariadnaia-stantsiia-dualsense-na-dva-geimpada-dlia-ps5/691136023' },
-            { name: 'DNS', url: 'https://www.dns-shop.ru/product/ea7634350414ed20/zaradnaa-stancia-playstation-dualsense-charging-station-belyj' },
+            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/1005006583153939.html?sku_id=12000041564223043' },
         ]
     },
     {
@@ -77,8 +120,9 @@ const items: WishlistItemData[] = [
         image: '/wishlist/games.jpg',
         text: 'Хороших игр много, многие из них я пропустил, нужно наращивать упущенное. Чтобы не удлинять список, здесь оставляю ссылку на все игры, которые мне интересны (сверху самые интересные, ниже менее интересные). Купить можно где угодно. Важно, чтобы продавец продавал именно диск с игрой, а не аккаунт или цифровую версию.',
         links: [
-            { name: 'Hogwarts Legacy - 5500 руб, Маркет', url: 'https://market.yandex.ru/product--igra-hogwarts-legacy-standard-edition-dlia-playstation-5/1812470565' },
-            { name: 'Ratchet & Clank: Сквозь Миры - 4000 руб, Маркет', url: 'https://market.yandex.ru/product--igra-ratchet-clank-skvoz-miry/942818431' },
+            { name: 'Astro Bot - 6500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-igra-astro-bot-playstation-5-russkie-subtitry-1695798659' },
+            { name: 'Monster Hunter Wilds - 5500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-monster-hunter-wilds-playstation-5-russkaya-versiya-1924944680' },
+            { name: 'Ratchet & Clank: Сквозь Миры - 3500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-ratchet-clank-rift-apart-skvoz-miry-ps5-playstation-5-russkaya-versiya-1632635442' },
         ]
     },
     {
@@ -88,23 +132,19 @@ const items: WishlistItemData[] = [
         text: 'Lego всегда тема. Серии Technic, Architecture, Ideas, Minecraft. Creator 3-in-1 не очень понравился, разбирать собранное не очень интересно.'
     },
     {
-        name: 'M2 SSD диск',
-        price: 6000,
-        image: '/wishlist/ssd.png',
-        text: 'Вариантов масса. Главные характеристики, которые нужно учесть: форм-фактор 2280, PCIe 4, компании Samsung, Kingston, Western Digital. Объём от 500 и более гигабайт. Хорошие варианты собрал ниже, ссылки на Ozon.',
+        name: 'Анализатор качества воздуха Xiaomi Qingping Air Monitor 2, белый',
+        price: 12000,
+        image: '/wishlist/airm.png',
+        text: 'Давно хочу такой датчик себе в умный дом. Умеет мерить СО2, температуру, важность или, просто, показывать время. Глобальная версия, чтобы буквы были хотя бы английскими',
         links: [
-            { name: 'Kingston FURY Renegade - 6000 руб', url: 'https://www.ozon.ru/product/500-gb-vnutrenniy-ssd-disk-kingston-fury-renegade-sfyrs-500g-396269989/' },
-            { name: 'Samsung MZ-V8P500BW - 6000 руб', url: 'https://www.ozon.ru/product/500-gb-vnutrenniy-ssd-disk-samsung-mz-v8p500bw-mz-v8p500bw-1189261147/' },
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/analizator-kachestva-vozduha-xiaomi-qingping-air-monitor-2-cgs2-white-1687280637' },
         ]
     },
     {
-        name: 'Роутер Keenetic Hopper',
-        price: 7000,
-        image: '/wishlist/router.jpg',
-        text: 'Давно хочу обновить роутер. Но мой меня вполне устраивает. Но вот wifi 6 и USB порт не помешали бы совсем. Keenetic делает лучшие роутеры на данный момент. Hopper - минимально оптимальная модель, отвечающая всем моим требованиям. Можно и круче, например Giga.',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/wi-fi-router-keenetic-hopper-kn-3810-554543961' },
-        ]
+        name: 'Стул Herman Miller Aeron Mineral - размер B',
+        price: 175000,
+        image: '/wishlist/chair.png',
+        text: 'Отличный стул, сижу на похожем в офисе. Спина не устаёт и держит осанку. Домой хотелось бы такой же.'
     },
     {
         name: 'Nissan Qashqai',

@@ -43,22 +43,22 @@ const Home: NextPage = () => {
             <Text>
                 <div className={styles.bio}>
                     <div className={styles.year}>
-                        2023
+                        н. в.
                         <br/>
-                        н.в.
+                        2023
                     </div>
                     <div className={styles.text}>
                         Разработчик в команде Adfox, Яндекс
                         <Small>
-                            Делаем бекенд и фронтенд для интерфейса рекламного движка Adfox
+                            Делаем бекенд и фронтенд для интерфейса рекламного движка Adfox. Легаси на PHP, новый код на Kotlin
                         </Small>
                     </div>
                 </div>
                 <div className={styles.bio}>
                     <div className={styles.year}>
-                        2018
-                        <br/>
                         2023
+                        <br/>
+                        2018
                     </div>
                     <div className={styles.text}>
                         <Link href="/projects/1">Ведущий разработчик в фотостудии “Непоседы”</Link>
@@ -70,9 +70,9 @@ const Home: NextPage = () => {
                 </div>
                 <div className={styles.bio}>
                     <div className={styles.year}>
-                        2021
-                        <br/>
                         2022
+                        <br/>
+                        2021
                     </div>
                     <div className={styles.text}>
                         Фулстак разработчик в агенстве ZooInSpace
