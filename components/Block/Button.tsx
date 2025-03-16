@@ -7,7 +7,7 @@ export interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
-    return <Link href={props.href}>
+    return <Link href={props.href} passHref>
         <span className="button">{props.children}</span>
     </Link>
 }

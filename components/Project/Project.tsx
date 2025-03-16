@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Project.module.sass";
 import {Thumbnail} from "@components/Block";
 import Small from "@components/Block/Small";
+import {StaticImageData} from "next/image";
 
 export interface ProjectProps {
     backgroundColor: string

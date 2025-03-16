@@ -17,4 +17,5 @@ const getLastArticles = async (): Promise<WpPost[]> => {
     return await response.json();
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { getLastArticles };
