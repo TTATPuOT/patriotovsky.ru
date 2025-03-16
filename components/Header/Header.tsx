@@ -9,7 +9,11 @@ const Header = () => {
             <li><Link href="/projects">Проекты</Link></li>
             <li><Link href="/books">Книги</Link></li>
             <li><Link href="/articles">Статьи</Link></li>
-            <li><a href="https://github.com/TTATPuOT/patriotovsky.ru" target="_blank">Исходники <i className="icon-link" /></a></li>
+            <li>
+                <Link href="https://github.com/TTATPuOT/patriotovsky.ru" passHref target="_blank">
+                    Исходники <i className="icon-link" />
+                </Link>
+            </li>
         </ul>
     </div>
 }

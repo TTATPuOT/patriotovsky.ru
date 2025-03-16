@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { WishlistItemData } from '@lib/types';
 import styles from './WishlistItem.module.sass';
 import Image from 'next/image';
+import Link from "next/link";
 
 export interface WishlistProps {
     data: WishlistItemData
@@ -15,7 +16,7 @@ const WishlistItem = (props: WishlistProps) => {
 
         return data.links.map(i => {
             return <li key={i.url}>
-                <a href={i.url} target="_blank" rel="noreferrer">{i.name}</a>
+                <Link href={i.url} target="_blank" rel="noreferrer">{i.name}</Link>
             </li>
         })
     }, [data.links]);
@@ -29,8 +30,8 @@ const WishlistItem = (props: WishlistProps) => {
                     src={data.image}
                     alt={data.name}
                     layout="responsive"
-                    width="100%"
-                    height="75"
+                    width={100}
+                    height={75}
                     objectFit="cover"
                 />
             </div>

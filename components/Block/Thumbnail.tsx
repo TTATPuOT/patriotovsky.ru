@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 import Link from 'next/link';
 
 export interface Thumbnail {
@@ -10,9 +10,9 @@ export interface Thumbnail {
 
 const Thumbnail = (props: Thumbnail) => {
     return <div className="thumbnail" style={{ backgroundColor: props.backgroundColor }}>
-        <Image src={props.src} quality={95} />
+        <Image src={props.src} quality={95} alt={props.href} />
         <Link href={props.href}>
-            <a>Подробности</a>
+            Подробности
         </Link>
     </div>
 }

@@ -1,37 +1,16 @@
 import 'normalize.css';
+import '@madeinhaus/nextjs-page-transition/dist/index.css';
 import '@styles/fonts.css';
 import '@styles/globals.sass';
-import {AnimatePresence} from "framer-motion";
 import type { AppProps } from 'next/app';
-import Router from "next/router";
-import {useEffect} from "react";
+import PageTransition, { useAsPathWithoutHash } from '@madeinhaus/nextjs-page-transition';
 
-const routeChange = () => {
-    // Temporary fix to avoid flash of unstyled content
-    // during route transitions. Keep an eye on this
-    // issue and remove this code when resolved:
-    // https://github.com/vercel/next.js/issues/17464
+function MyApp({ Component, pageProps }: AppProps) {
+    const key = useAsPathWithoutHash();
 
-    const tempFix = () => {
-        const allStyleElems = document.querySelectorAll('style[media="x"]');
-        allStyleElems.forEach((elem) => {
-            elem.removeAttribute("media");
-        });
-    };
-    tempFix();
-};
-
-Router.events.on("routeChangeComplete", routeChange );
-Router.events.on("routeChangeStart", routeChange );
-
-function MyApp({ Component, pageProps, router }: AppProps) {
-    useEffect(() => {
-        router.push(router.pathname);
-    }, []);
-
-    return <AnimatePresence exitBeforeEnter initial={true}>
-        <Component {...pageProps} key={router.route} />
-    </AnimatePresence>
+    return <PageTransition inPhaseDuration={100} outPhaseDuration={100}>
+        <Component {...pageProps} key={key} />
+    </PageTransition>
 }
 
 export default MyApp;

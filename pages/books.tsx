@@ -36,7 +36,7 @@ const Index: NextPage = () => {
                         src={b.image}
                         alt={b.title}
                         layout="responsive"
-                        width="100%"
+                        width={250}
                         height={140}
                         objectFit="cover"
                     />
