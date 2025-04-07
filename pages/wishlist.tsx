@@ -29,16 +29,6 @@ const items: WishlistItemData[] = [
         text: 'Люблю любое тонко нарезанное мясо и колбасы: прошутто, хамон, балык и т.д.'
     },
     {
-        name: 'Датчики протечек с протоколом Zigbee или Metter',
-        price: 1000,
-        image: '/wishlist/water.png',
-        text: 'Датчики, которые подключаются к Алиси Миди (протоколы Zigbee, Metter, умный дом Яндекса). Всего нужно 3-4 штуки, но хватит и 1-2 пока что',
-        links: [
-            { name: 'От китайцев (хорошая фирма), Ozon', url: 'https://www.ozon.ru/product/umnyy-datchik-protechki-zigbee-yandeks-alisoy-google-home-1567283765/' },
-            { name: 'От Яндекса, Ozon', url: 'https://www.ozon.ru/product/datchik-protechki-yandeks-zigbee-yndx-00521-912307791' },
-        ]
-    },
-    {
         name: 'Мармеладки от Мармеладыча',
         price: 1000,
         image: '/wishlist/mar.png',
@@ -78,15 +68,6 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Беспроводная кнопка Яндекс',
-        price: 2200,
-        image: '/wishlist/button.png',
-        text: 'Это, просто, такая кнопка, куда можно кликать и она что-то сделает. Давно хочу такую на роль мастер-выключателя света',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/besprovodnaya-knopka-yandeks-zigbee-yndx-00524-912313227/' },
-        ]
-    },
-    {
         name: 'Ящик сладких напитков',
         price: 2500,
         image: '/wishlist/cola.png',
@@ -103,15 +84,6 @@ const items: WishlistItemData[] = [
         text: 'Любые интересные корейские или японские сладости. Продаются даже наборами. А можно купить и по-отдельности.',
         links: [
             { name: 'Набор от JCANDY, Ozon', url: 'https://www.ozon.ru/product/sladkiy-podarok-jcandy-prime-box-premium-edition-yaponskie-koreyskie-aziatskie-sladosti-1194574600' },
-        ]
-    },
-    {
-        name: 'Кейкапы для клавиатуры с прозрачными полосами',
-        price: 2500,
-        image: '/wishlist/keycaps.png',
-        text: 'Набор кейкапов с прозрачными линиями. Видел такие кейкапы в тиктоке, но жаба душит самому купить. Можно поискать и другие на клавиатуру 100%, но много где это рисунок, а не реально прозрачные линии.',
-        links: [
-            { name: 'Aliexpress', url: 'https://aliexpress.ru/item/1005006583153939.html?sku_id=12000041564223043' },
         ]
     },
     {
