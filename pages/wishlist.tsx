@@ -50,6 +50,24 @@ const items: WishlistItemData[] = [
         text: 'Сертификат на мойку авто с протиркой панелей салона и пылесосом. В любую автомойку на северо-западе Питера'
     },
     {
+        name: 'Дезодорант Clarins Men',
+        price: 2000,
+        image: '/wishlist/clarins.png',
+        text: 'Хороший дезодорант, но стоит тоже хорошо',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/sharikovyy-dezodorant-antiperspirant-dlya-muzhchin-anti-transpirant-roll-on-144043545/' },
+        ]
+    },
+    {
+        name: 'Наушники проводные MoonDrop Chu 2',
+        price: 2000,
+        image: '/wishlist/phones.png',
+        text: 'Мне давно нужны проводные наушники для Steam Deck\'а. Эти - подходят идеально.',
+        links: [
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/naushniki-provodnye-moondrop-chu-2-vnutrikanalnye-bez-mikrofona-3-5-mm-1849317726/' },
+        ]
+    },
+    {
         name: 'Кофе в зернах Sibaristica Эфиопия Иргачефф',
         price: 2000,
         image: '/wishlist/coffee.png',
@@ -85,6 +103,12 @@ const items: WishlistItemData[] = [
         links: [
             { name: 'Набор от JCANDY, Ozon', url: 'https://www.ozon.ru/product/sladkiy-podarok-jcandy-prime-box-premium-edition-yaponskie-koreyskie-aziatskie-sladosti-1194574600' },
         ]
+    },
+    {
+        name: 'Джин Bombay Sapphire',
+        price: 5000,
+        image: '/wishlist/bombay.png',
+        text: 'Люблю этот джин, но его очень сложно найти в России. К тому же он очень дорогой, самое то для подарка! Где купить - не знаю, штука редкая.'
     },
     {
         name: 'Игры для PlayStation 5',
