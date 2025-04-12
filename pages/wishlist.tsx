@@ -111,6 +111,15 @@ const items: WishlistItemData[] = [
         text: 'Люблю этот джин, но его очень сложно найти в России. К тому же он очень дорогой, самое то для подарка! Где купить - не знаю, штука редкая.'
     },
     {
+        name: 'Оригинальный чехол от Google для Pixel 9 Pro, цвет Porcelain',
+        price: 5000,
+        image: '/wishlist/case.png',
+        text: 'Чехол для Pixel 9 (pro и без pro - одно и то же), цвет Porcelain (светлосерый). Купить в России можно только на Авито через перекупов.',
+        links: [
+            { name: 'Google Store (для примера)', url: 'https://store.google.com/us/product/pixel_9_pro_phone_case?hl=en-US&selections=eyJwcm9kdWN0RmFtaWx5IjoiWkdWMmFXTmxYMlpoYldsc2VWOWZjR2w0Wld4Zk9WOWhibVJmT1Y5d2NtOWZZMkZ6WlY5bVlXMD0iLCJoZXJvUHJvZHVjdHMiOltbIlgzQnBlR1ZzWHpsZllXNWtYemxmY0hKdlgyTmhjMlZmY0c5eVkyVnNZV2x1IiwxLG51bGxdXX0%3D' },
+        ]
+    },
+    {
         name: 'Игры для PlayStation 5',
         price: 5000,
         image: '/wishlist/games.jpg',
