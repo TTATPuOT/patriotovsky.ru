@@ -23,31 +23,42 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Мясные наборы',
-        price: 1000,
-        image: '/wishlist/meat.png',
-        text: 'Люблю любое тонко нарезанное мясо и колбасы: прошутто, хамон, балык и т.д.'
-    },
-    {
-        name: 'Мармеладки от Мармеладыча',
-        price: 1000,
-        image: '/wishlist/mar.png',
-        text: 'Очень люблю их наборы. Можно дарить любые, кроме лакрицы. Сладкие, кислые - все съем.',
+        name: 'Вкусный протеин',
+        price: 900,
+        image: '/wishlist/protein.png',
+        text: 'Самый вкусный проетин, который я пробовал - от бренда USN Bluelab. Возможно, есть и другие. Вкус - шоколадный, но готов попробовать и любой другой вкус, но тогда небольшую баночку (300-400 грамм). Можно и дешёвый российский аналог - 1WIN или Первый Русский Протеин',
         links: [
-            { name: 'Мармеладыч на Ozon', url: 'https://www.ozon.ru/seller/marmeladych-2079989/products/?miniapp=seller_2079989' },
+            { name: 'USN Bluelab шоколадный маленький - 3000 руб, Ozon', url: 'https://www.ozon.ru/product/protein-100-bluelab-whey-premium-protein-usn-476-gr-shokolad-1723546345/' },
+            { name: 'USN Bluelab шоколадный средний - 6500 руб, Ozon', url: 'https://www.ozon.ru/product/usn-syvorotochnyy-protein-shokolad-908-gr-blue-lab-whey-chocolate-2774926913/' },
+            { name: '1WIN Клубничный маленький - 1700 руб, Ozon', url: 'https://www.ozon.ru/product/protein-syvorotochnyy-s-vsaa-whey-protein-vkus-klubnika-450gr-1297124238/' },
+            { name: 'Первый Русский Протеин Шоколадный маленький - 900 руб, Ozon', url: 'https://www.ozon.ru/product/suhoy-pishchevoy-syvorotochnyy-protein-protein-so-vkusom-shokolada-450-gr-1580399782/' },
         ]
     },
     {
-        name: 'Cменные лезвия для Philips OneBlade',
-        price: 1500,
-        image: '/wishlist/oneblade.png',
-        text: 'Раз в год нужно менять лезвия на моём триммере. Текущее лезвие уже очень давно устало. Лучше всего покупать в офлайн магазине, там меньше вероятность купить подделку. Но на Ozon/Маркете тоже можно найти.'
+        name: 'Протеиновые батончики, печеньки и лакомства',
+        price: 1000,
+        image: '/wishlist/bars.png',
+        text: 'Важно смотреть на КБЖУ! Всего калорий МЕНЬШЕ 190, белков БОЛЬШЕ углеводов, жиров МИНИМАЛЬНОЕ количество (обычно, 6-10 гр). Многие спортивные батончики - скам по КБЖУ. Пробовал Bombbar и Chikalab - у первых лучше КБЖУ, вторые вкуснее.',
+        links: [
+            { name: 'Разные наборы Bombbar, 2000р, Ozon', url: 'https://www.ozon.ru/product/bombbar-proteinovye-batonchiki-bez-sahara-assorti-2-20sht-h-60g-299646705' },
+            { name: 'Разные вкусы печенек Chikalab, 800р, Ozon', url: 'https://www.ozon.ru/product/chikalab-proteinovoe-pechene-v-shokolade-bez-sahara-chikapie-troynoy-shokolad-9sht-h-60g-277959964/' },
+            { name: 'Другие сладости от Chikalab, Ozon', url: 'https://www.ozon.ru/brand/chikalab-87353933/' },
+        ]
     },
     {
-        name: 'Сертификат на полную мойку авто',
-        price: 2000,
-        image: '/wishlist/wash.png',
-        text: 'Сертификат на мойку авто с протиркой панелей салона и пылесосом. В любую автомойку на северо-западе Питера'
+        name: 'Мясные и рыбные наборы',
+        price: 1000,
+        image: '/wishlist/meat.png',
+        text: 'Люблю любое тонко нарезанное мясо и колбасы: прошутто, хамон, балык, икра, вяленая рыба, красная рыба и т.д.'
+    },
+    {
+        name: 'Вкусный ароматизированный чай',
+        price: 1000,
+        image: '/wishlist/tea.png',
+        text: 'Офлайн сеть магазинов Кантата продают мой любимый Королевский Эрл Грей. Так же нравится Клубника со Сливками. Ещё хочу попробовать набор "Пора заварить".',links: [
+            { name: 'Кантата', url: 'https://www.cantata.ru/' },
+            { name: 'Набор "Пора заварить", 5000р, Ozon', url: 'https://www.ozon.ru/product/chay-pora-zavarit-podarochnyy-nabor-k-23-fevralya-3542297512/' },
+        ]
     },
     {
         name: 'Дезодорант Clarins Men',
@@ -56,15 +67,6 @@ const items: WishlistItemData[] = [
         text: 'Хороший дезодорант, но стоит тоже хорошо',
         links: [
             { name: 'Ozon', url: 'https://www.ozon.ru/product/sharikovyy-dezodorant-antiperspirant-dlya-muzhchin-anti-transpirant-roll-on-144043545/' },
-        ]
-    },
-    {
-        name: 'Наушники проводные MoonDrop Chu 2',
-        price: 2000,
-        image: '/wishlist/phones.png',
-        text: 'Мне давно нужны проводные наушники для Steam Deck\'а. Эти - подходят идеально.',
-        links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/naushniki-provodnye-moondrop-chu-2-vnutrikanalnye-bez-mikrofona-3-5-mm-1849317726/' },
         ]
     },
     {
@@ -86,48 +88,36 @@ const items: WishlistItemData[] = [
         ]
     },
     {
-        name: 'Ящик сладких напитков',
-        price: 2500,
-        image: '/wishlist/cola.png',
-        text: 'Люблю всякие напитки. Чтобы не дарить чуть-чуть, можно подарить сразу ящик! Я люблю: Coca-Cola обычная/ванильная/без сахара, капучино/латте от Lotte/Parmalat, Милкис обычный, Chupa Chups, Dr. Pepper, Dr.Pepper Flat Vanilla (мой любимый)',
-        links: [
-            { name: 'Dr Pepper Vanilla Float, Ozon', url: 'https://www.ozon.ru/product/gazirovannyy-napitok-dr-pepper-vanilla-float-335-ml-h-12-sht-1644902228' },
-            { name: 'Dr Pepper, Ozon', url: 'https://www.ozon.ru/product/napitok-gazirovannyy-dr-pepper-classic-24-sht-h-330-ml-doktor-pepper-1215351614' },
-        ]
-    },
-    {
-        name: 'Корейские/Японские сладости',
-        price: 2500,
-        image: '/wishlist/candy.png',
-        text: 'Любые интересные корейские или японские сладости. Продаются даже наборами. А можно купить и по-отдельности.',
-        links: [
-            { name: 'Набор от JCANDY, Ozon', url: 'https://www.ozon.ru/product/sladkiy-podarok-jcandy-prime-box-premium-edition-yaponskie-koreyskie-aziatskie-sladosti-1194574600' },
-        ]
-    },
-    {
         name: 'Джин Bombay Sapphire',
-        price: 5000,
+        price: 2500,
         image: '/wishlist/bombay.png',
         text: 'Люблю этот джин, но его очень сложно найти в России. К тому же он очень дорогой, самое то для подарка! Где купить - не знаю, штука редкая.'
     },
     {
-        name: 'Оригинальный чехол от Google для Pixel 9 Pro, цвет Porcelain',
-        price: 5000,
-        image: '/wishlist/case.png',
-        text: 'Чехол для Pixel 9 (pro и без pro - одно и то же), цвет Porcelain (светлосерый). Купить в России можно только на Авито через перекупов.',
+        name: 'Сертификат на полную мойку авто',
+        price: 3500,
+        image: '/wishlist/wash.png',
+        text: 'Хорошая мойка - М3 на проспекте Просвещения. Тариф "Всё включено" или похожий, с внутренней уборкой салона. Можно купить сертификат на сайте',
         links: [
-            { name: 'Google Store (для примера)', url: 'https://store.google.com/us/product/pixel_9_pro_phone_case?hl=en-US&selections=eyJwcm9kdWN0RmFtaWx5IjoiWkdWMmFXTmxYMlpoYldsc2VWOWZjR2w0Wld4Zk9WOWhibVJmT1Y5d2NtOWZZMkZ6WlY5bVlXMD0iLCJoZXJvUHJvZHVjdHMiOltbIlgzQnBlR1ZzWHpsZllXNWtYemxmY0hKdlgyTmhjMlZmY0c5eVkyVnNZV2x1IiwxLG51bGxdXX0%3D' },
+            { name: "Автомойка М3", url: 'https://yandex.ru/maps/-/CPerI6kJ' },
         ]
     },
     {
-        name: 'Игры для PlayStation 5',
+        name: 'Чехол Tomtoc G38 для Steam Deck',
+        price: 3500,
+        image: '/wishlist/case.png',
+        text: 'Хороший компактный лёгкий чехол, лучше комплектного. Буду брать в поездки',
+        links: [
+            { name: "Ozon", url: 'https://www.ozon.ru/product/chehol-tomtoc-g38-na-steam-deck-na-molnii-udaroprochnyy-vodonepronitsaemyy-s-ruchkoy-dlya-1506181464/' },
+        ]
+    },
+    {
+        name: 'Игры для PlayStation 5 (и PS4)',
         price: 5000,
         image: '/wishlist/games.jpg',
         text: 'Хороших игр много, многие из них я пропустил, нужно наращивать упущенное. Чтобы не удлинять список, здесь оставляю ссылку на все игры, которые мне интересны (сверху самые интересные, ниже менее интересные). Купить можно где угодно. Важно, чтобы продавец продавал именно диск с игрой, а не аккаунт или цифровую версию.',
         links: [
-            { name: 'Astro Bot - 6500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-igra-astro-bot-playstation-5-russkie-subtitry-1695798659' },
             { name: 'Monster Hunter Wilds - 5500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-monster-hunter-wilds-playstation-5-russkaya-versiya-1924944680' },
-            { name: 'Ratchet & Clank: Сквозь Миры - 3500 руб, Ozon', url: 'https://www.ozon.ru/product/igra-ratchet-clank-rift-apart-skvoz-miry-ps5-playstation-5-russkaya-versiya-1632635442' },
         ]
     },
     {
@@ -142,12 +132,12 @@ const items: WishlistItemData[] = [
         image: '/wishlist/airm.png',
         text: 'Давно хочу такой датчик себе в умный дом. Умеет мерить СО2, температуру, важность или, просто, показывать время. Глобальная версия, чтобы буквы были хотя бы английскими',
         links: [
-            { name: 'Ozon', url: 'https://www.ozon.ru/product/analizator-kachestva-vozduha-xiaomi-qingping-air-monitor-2-cgs2-white-1687280637' },
+            { name: 'Ozon', url: 'https://www.ozon.ru/product/analizator-kachestva-vozduha-xiaomi-qingping-air-monitor-cgs2-6-v-1-datchik-uglekislogo-gaza-1573686508/' },
         ]
     },
     {
         name: 'Стул Herman Miller Aeron Mineral - размер B',
-        price: 175000,
+        price: 150000,
         image: '/wishlist/chair.png',
         text: 'Отличный стул, сижу на похожем в офисе. Спина не устаёт и держит осанку. Домой хотелось бы такой же.'
     },

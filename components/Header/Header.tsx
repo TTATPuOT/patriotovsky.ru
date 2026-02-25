@@ -7,7 +7,7 @@ const Header = () => {
         <ul>
             <li><Link href="/">Обо мне</Link></li>
             <li><Link href="/projects">Проекты</Link></li>
-            <li><Link href="/books">Книги</Link></li>
+            <li><Link href="/books">Что почитать?</Link></li>
             <li><Link href="/articles">Статьи</Link></li>
             <li>
                 <Link href="https://github.com/TTATPuOT/patriotovsky.ru" passHref target="_blank">

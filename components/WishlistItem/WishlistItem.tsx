@@ -31,7 +31,8 @@ const WishlistItem = (props: WishlistProps) => {
                     alt={data.name}
                     layout="responsive"
                     width={100}
-                    height={75}
+                    height={350}
+                    style={{ maxHeight: 350, objectFit: 'cover' }}
                     objectFit="cover"
                 />
             </div>

@@ -15,7 +15,7 @@ const Home: NextPage = () => {
             <div className={styles.main}>
                 <div>
                     <h1>Антон Неверов 🎉</h1>
-                    <h2>JavaScript и PHP разработчик</h2>
+                    <h2>Kotlin и PHP разработчик</h2>
                 </div>
                 <div>
                     <div className={styles.avatar}>
