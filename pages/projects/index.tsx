@@ -42,6 +42,22 @@ const Index: NextPage = () => {
 
             <div className={styles.item}>
                 <Text>
+                    <Link href="https://gg.tohadev.com" target="_blank">
+                        Guess Game
+                    </Link>
+                </Text>
+                <div className={styles.small}>
+                    <Small>
+                        Next.js приложение, в котором нужно угадывать видеоигры по совпадающим параметрам
+                    </Small>
+                    <Small>
+                        <Link href="https://github.com/TTATPuOT/guess-game" target="_blank">Исходный код</Link>
+                    </Small>
+                </div>
+            </div>
+
+            <div className={styles.item}>
+                <Text>
                     <Link href="https://play.google.com/store/apps/details?id=ru.patriotovsky.fitnesshouse" target="_blank">
                         Приложение Fitness House для Android
                     </Link>

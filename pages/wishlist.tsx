@@ -26,7 +26,7 @@ const items: WishlistItemData[] = [
         name: 'Вкусный протеин',
         price: 900,
         image: '/wishlist/protein.png',
-        text: 'Самый вкусный проетин, который я пробовал - от бренда USN Bluelab. Возможно, есть и другие. Вкус - шоколадный, но готов попробовать и любой другой вкус, но тогда небольшую баночку (300-400 грамм). Можно и дешёвый российский аналог - 1WIN или Первый Русский Протеин',
+        text: 'Самый вкусный проетин, который я пробовал - от бренда USN Bluelab. Вкус - шоколадный, но готов попробовать и любой другой вкус, но тогда небольшую баночку (300-400 грамм). В офлайн магазине для качков СИЛЬНО ДЕШЕВЛЕ чем на озоне. Называется BlueLab Whey или BlueLab Whey+. Можно и дешёвый российский аналог - 1WIN или Первый Русский Протеин',
         links: [
             { name: 'USN Bluelab шоколадный маленький - 3000 руб, Ozon', url: 'https://www.ozon.ru/product/protein-100-bluelab-whey-premium-protein-usn-476-gr-shokolad-1723546345/' },
             { name: 'USN Bluelab шоколадный средний - 6500 руб, Ozon', url: 'https://www.ozon.ru/product/usn-syvorotochnyy-protein-shokolad-908-gr-blue-lab-whey-chocolate-2774926913/' },
@@ -40,7 +40,6 @@ const items: WishlistItemData[] = [
         image: '/wishlist/bars.png',
         text: 'Важно смотреть на КБЖУ! Всего калорий МЕНЬШЕ 190, белков БОЛЬШЕ углеводов, жиров МИНИМАЛЬНОЕ количество (обычно, 6-10 гр). Многие спортивные батончики - скам по КБЖУ. Пробовал Bombbar и Chikalab - у первых лучше КБЖУ, вторые вкуснее.',
         links: [
-            { name: 'Разные наборы Bombbar, 2000р, Ozon', url: 'https://www.ozon.ru/product/bombbar-proteinovye-batonchiki-bez-sahara-assorti-2-20sht-h-60g-299646705' },
             { name: 'Разные вкусы печенек Chikalab, 800р, Ozon', url: 'https://www.ozon.ru/product/chikalab-proteinovoe-pechene-v-shokolade-bez-sahara-chikapie-troynoy-shokolad-9sht-h-60g-277959964/' },
             { name: 'Другие сладости от Chikalab, Ozon', url: 'https://www.ozon.ru/brand/chikalab-87353933/' },
         ]
